@@ -3,13 +3,13 @@
 To build with Docker:
 
 ```
-docker build -t rediweb:latest .
+docker build -t schmichael/rediweb:0.1 .
 ```
 
 To run:
 
 ```
-docker run -P rediweb:latest
+docker run -P schmichael/rediweb:0.1
 ```
 
 To build and run with Go:
